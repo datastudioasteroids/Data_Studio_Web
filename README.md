@@ -1,3 +1,6 @@
+
+![WhatsApp Image 2025-05-12 at 8 42 09 AM](https://github.com/user-attachments/assets/66aea9df-90ad-401f-8287-c5359035135c)
+
 🚀 Nuestros Servicios Tecnológicos
 
 🤖 Inteligencia Artificial
@@ -58,4 +61,4 @@ Alianza Estratégica: No somos proveedores, somos tu socio en la transformación
 
 "Impulsá tu negocio con soluciones tecnológicas integrales. ¡Hablemos!"
 
-Contacto: hello@studio-asteroids.com
+Contacto: Datastudioasteroids@gmail.com
