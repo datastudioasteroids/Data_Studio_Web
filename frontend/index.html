@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Studio Asteroids</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="overlay">
+        <header>
+            <div class="logo">DATA STUDIO ASTEROIDS</div>
+            <nav>
+                <a href="/#about">About</a>
+                <a href="/#services">Services</a>
+                <div class="dropdown">
+                  <a href="javascript:void(0)" id="contact-toggle">Contact ▼</a>
+                  <div class="dropdown-content" id="contact-menu">
+                    <!-- WhatsApp Web -->
+                    <a href="https://wa.me/5491158777937" target="_blank">
+                      +54 9 11 5877 7937
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="https://ar.linkedin.com/company/datastudioasteroids" target="_blank">
+                      LinkedIn
+                    </a>
+                    <!-- Email -->
+                    <a href="mailto:studioasteroids0@gmail.com">
+                      studioasteroids0@gmail.com
+                    </a>
+                  </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Innovative Data Solutions for a Digital Future</h1>
+            <button onclick="getStarted()">Get Started</button>
+        </main>
+
+
+        <!-- Sección de Servicios -->
+        <section id="services" class="services-section">
+          <h2>Servicios</h2>
+          <!-- Subtítulo incorporado -->
+          <p class="services-subtitle">
+            Lanza tu idea, no tus dudas. Tu potencial merece volar. MVPs ultra ágiles: Despega rápido, aprende del mercado, triunfa sin demoras.
+          </p>
+
+          <div class="carousel-container">
+            <button class="carousel-btn prev" aria-label="Anterior">‹</button>
+
+            <div class="carousel">
+              <!-- Servicios de TI -->
+              <div class="service-card">
+                <h3>Inteligencia Artificial para Vender Más</h3>
+                <p>Aplicación de IA para mejorar el crecimiento de la empresa a través del aumento de ventas.</p>
+              </div>
+              <div class="service-card">
+                <h3>Inteligencia Artificial para Reducir Costes</h3>
+                <p>Uso de IA para optimizar procesos y disminuir gastos operativos.</p>
+              </div>
+              <div class="service-card">
+                <h3>Inteligencia Artificial para Optimizar Procesos</h3>
+                <p>Implementación de IA para mejorar la eficiencia y rendimiento de las operaciones empresariales.</p>
+              </div>
+              <div class="service-card">
+                <h3>Desarrollo de Software</h3>
+                <p>Creación de software personalizado, incorporando analítica e IA.</p>
+              </div>
+              <div class="service-card">
+                <h3>Diseña tu Propia IA</h3>
+                <p>Participa en el diseño de soluciones de IA adaptadas a tus necesidades.</p>
+              </div>
+              <div class="service-card">
+                <h3>Desarrollo de Productos</h3>
+                <p>Creación de productos tecnológicos con enfoque en módulos de inteligencia.</p>
+              </div>
+
+              <!-- Servicios Potenciales / Recomendados -->
+              <div class="service-card">
+                <h3>Consultoría y Migración a la Nube</h3>
+                <p>Estrategias en AWS/Azure/GCP, migración de apps y optimización.</p>
+              </div>
+              <div class="service-card">
+                <h3>Ciberseguridad Integral</h3>
+                <p>Evaluación de riesgos, pruebas, estrategias, respuesta a incidentes.</p>
+              </div>
+              <div class="service-card">
+                <h3>Servicios Gestionados de TI</h3>
+                <p>Monitorización, gestión y soporte continuo de tu infraestructura.</p>
+              </div>
+              <div class="service-card">
+                <h3>Desarrollo de Software Especializado</h3>
+                <p>Apps a medida, web y móvil, e integración empresarial.</p>
+              </div>
+              <div class="service-card">
+                <h3>Gestión de Infraestructura de TI</h3>
+                <p>Planificación, diseño, implementación y gestión de hardware y redes.</p>
+              </div>
+
+              <!-- Servicios de Marketing Digital -->
+              <div class="service-card">
+                <h3>Marketing Digital</h3>
+                <p>Inbound, email marketing, gestión web y redes sociales.</p>
+              </div>
+              <div class="service-card">
+                <h3>Social Media Marketing</h3>
+                <p>Creación y gestión de canales en redes sociales.</p>
+              </div>
+              <div class="service-card">
+                <h3>Comunicación Digital</h3>
+                <p>Notas de prensa y creación de newsletters.</p>
+              </div>
+              <div class="service-card">
+                <h3>Posicionamiento SEO</h3>
+                <p>Optimización on-page y de contenidos para buscadores.</p>
+              </div>
+              <div class="service-card">
+                <h3>Creación de Contenidos</h3>
+                <p>Redacción profesional por periodistas.</p>
+              </div>
+              <div class="service-card">
+                <h3>Formación</h3>
+                <p>Capacitación en gestión web, redes sociales y SEO.</p>
+              </div>
+              <div class="service-card">
+                <h3>Diseño Web</h3>
+                <p>Diseño o rediseño de páginas web.</p>
+              </div>
+              <div class="service-card">
+                <h3>Email Marketing</h3>
+                <p>Diseño, envío, seguimiento y reporte de newsletters.</p>
+              </div>
+            </div>
+
+            <button class="carousel-btn next" aria-label="Siguiente">›</button>
+          </div>
+        </section>
+      <!-- Sección About Us / Impulsá tu Negocio -->
+<section id="about" class="about-section">
+  <h2>Impulsá tu Negocio con Soluciones Tecnológicas Integrales</h2>
+  <p>En Data Studio Asteroids, somos tus socios estratégicos para transformar ideas en soluciones digitales robustas y escalables. Acompañamos todas las etapas del ciclo de vida de tu proyecto tecnológico con foco en resultados.</p>
+
+  <div class="about-services">
+    <div class="about-service">
+      <h3>Desarrollo de Sistemas a Medida</h3>
+      <p>Plataformas personalizadas que se adaptan a las necesidades específicas de tu negocio. Desde sistemas internos hasta aplicaciones para clientes, diseñamos soluciones innovadoras, seguras y eficientes.</p>
+    </div>
+    <div class="about-service">
+      <h3>Diseño y Desarrollo Web de Alto Impacto</h3>
+      <p>Experiencias digitales atractivas y profesionales. Nuestro enfoque UI/UX garantiza usabilidad, fluidez y estética para fortalecer tu presencia online.</p>
+    </div>
+    <div class="about-service">
+      <h3>Infraestructura en la Nube (AWS, GCP, Azure)</h3>
+      <p>Te ayudamos a migrar y optimizar tu infraestructura con las principales plataformas cloud. Rendimiento, escalabilidad y seguridad garantizados.</p>
+    </div>
+    <div class="about-service">
+      <h3>Gestión y Análisis de Datos</h3>
+      <p>Procesos de ETL, data lakes, data warehouses, e insights accionables para decisiones estratégicas basadas en datos reales.</p>
+    </div>
+    <div class="about-service">
+      <h3>Seguimiento y Optimización en Producción y Ventas</h3>
+      <p>Monitoreamos tus sistemas en tiempo real, detectamos oportunidades de mejora y potenciamos tu eficiencia y tus ingresos.</p>
+    </div>
+    <div class="about-service">
+      <h3>Diseño Centrado en el Usuario (UI/UX Research)</h3>
+      <p>Metodologías de investigación, prototipado y validación para crear productos que ofrezcan experiencias excepcionales.</p>
+    </div>
+  </div>
+
+  <p class="about-closing">
+    En Data Studio Asteroids, combinamos diseño, datos y tecnología para ofrecer soluciones integrales con visión estratégica. ¡Hablemos y potenciá tu proyecto!
+  </p>
+</section>
+
+
+        <!-- Sección de Contacto -->
+        <section id="contact-form" class="contact-section">
+          <h2>Contacto</h2>
+          <form action="mailto:studioasteroids0@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="Nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="Mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
